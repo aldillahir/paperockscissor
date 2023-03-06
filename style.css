@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    opacity: 70%;
+    background-color: black;
+    color: white;
+}
+
+section {
+    min-height: 100vh;
+    color: black;
+}
+
+section:nth-child(1) {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url("assets/main-bg.jpg");
+}
+
+.btn-primary {
+    background-color: #f3af34;
+    opacity: 90.4%;
+    color: black;
+    width: 200px;
+    height: 50px;
+    font-weight: bolder;
+}
+
+section:nth-child(2) {
+    background-image: url("../assets/the-games-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-child(3) {
+    background-image: url("../assets/img-bg3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-child(4) {
+    background-image: url("../assets/img-bg4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-child(5) {
+    background-image: url("../assets/img-bg5.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section:nth-child(6) {
+    background-image: url("../assets/img-bg6.png");
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.footer-position {
+    position: absolute;
+    left: 45%;
+    top: 90%;
+    color: white;
+    font-weight: bolder;
+}
+
+.welcome{
+    color: white;
+    position: absolute;
+    left: 37.3%;
+    top: 40%;
+}
+
+#position-nav{
+    right: 5%;
+}
+
+#position-login{
+    left: 15%;
+}
+
+#position-games{
+    position: absolute;
+    right: 40%;
+    top: 120%;
+    color: white;
+}
+
+#position-games h3{
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+#position-games h1{
+    font-size: 56px;
+}
+
+.slide-img{
+    width: 50%;
+    height: 30%;
+    position: absolute;
+    left: 40%;
+    top: 130%;
+}
+
